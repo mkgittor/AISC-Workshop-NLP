@@ -484,11 +484,6 @@ print("Test Loss: {:.6f}".format(np.mean(test_losses)),
       "Test Accuracy: {:.6f}".format(np.mean(test_acc))
       )
 
-"""# challenges
-- how can we improve the performance?
-  - hint: overampling? more epochs? different model architecture?
-- how do we do early stopping and save the best model every few epochs?
-
 # references
 - LSTM: Samarth Agrawal
 - Kaggle: https://www.kaggle.com/c/quora-question-pairs
